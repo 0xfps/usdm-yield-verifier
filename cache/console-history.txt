@@ -1,0 +1,30 @@
+.exit
+nano scripts/submitProof.js
+mkdir -p scripts
+await verifier.submitProof(proof);
+// Submit to the verifier
+);
+  [user, epoch, yieldAmount]
+  ["address", "uint256", "uint256"],
+const proof = ethers.utils.defaultAbiCoder.encode(
+// Encode the proof for submitProof()
+const yieldAmount = 3000;
+const epoch = 3;
+const user = "0x300fE68BB87dB212b8F9BA59C39aD4a846AfAfEB";
+const verifier = await ethers.getContractAt("ZKYieldVerifier", "0xc7e561B77F88B43a434FA76a7ea5CACC78779e11");
+const [signer] = await ethers.getSigners();
+.exit
+npx hardhat test
+await vault.unwrap(0)
+// Unwrap
+(await epochManager.getCurrentEpoch()).toString()
+// Check current epoch
+await vault.wrap(ethers.utils.parseEther("1000"))
+// Wrap (stake) tokens
+await usdm.approve(vault.address, ethers.utils.parseEther("1000"))
+// Approve the vault to use tokens
+const verifier = await ethers.getContractAt("ZKYieldVerifier", "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9");
+const vault = await ethers.getContractAt("wUSDmVault", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0");
+const usdm = await ethers.getContractAt("MockUSDM", "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512");
+const epochManager = await ethers.getContractAt("EpochManager", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+const [deployer] = await ethers.getSigners();
